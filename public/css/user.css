@@ -1,0 +1,145 @@
+.container {
+    padding-right: 0 !important;
+}
+
+.user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon-inner {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #FF5145;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon-inner i {
+    font-size: 50px;
+    color: #fff;
+}
+
+.user-info {
+    border: 1px solid #FF5145;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.edit-user-icon {
+    font-size: 22px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.edit-user {
+    font-size: 22px;
+}
+
+.ac {
+    background-color: #ffd7d4;
+    border: 10px solid #f8fafc;
+    border-radius: 20px !important;
+    padding: 20px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+.ac::-webkit-scrollbar {
+    width: 15px;
+}
+  
+/* Track */
+.ac::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 15px;
+}
+  
+/* Handle */
+.ac::-webkit-scrollbar-thumb {
+    background: #FF5145;
+    border-radius: 15px;
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading div:first-child i {
+    margin-right: 10px;
+    color: #FF5145;
+}
+
+.heading i {
+    font-size: 18px;
+}
+
+.ac-top {
+    margin-bottom: 10px;
+}
+
+.ac-top input {
+    width: 80%;
+    outline: none;
+    padding: 5px 5px 5px 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc !important;
+}
+
+.ac-top input:focus {
+    border: 1px solid #FF5145 !important;
+} 
+
+.u, .p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #FF5145;
+}
+
+.u-icons,
+.p-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.p {
+    align-items: flex-start;
+}
+
+.u-icons i,
+.p-icons i {
+    font-size: 18px;
+}
+
+.order {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #FF5145;
+    margin-bottom: 10px;
+}
+
+.order-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-top i {
+    font-size: 22px;
+}

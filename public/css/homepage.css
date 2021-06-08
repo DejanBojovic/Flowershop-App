@@ -1,0 +1,112 @@
+.cover {
+    height: 90vh;
+    background: url('/images/homepage/home.jpg');
+    background-position: 100% 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.inner {
+    position: relative;
+    bottom: 70px;
+    margin: 0 20px;
+}
+
+.inner h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 70px !important;
+    font-weight: 800;
+}
+
+.inner a {
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+
+
+/* sekcija sa tri */
+.section-1 {
+    padding: 80px 100px !important;
+}
+
+.row-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 260px;
+    width: 25%;
+    padding: 40px !important;
+    text-align: center;
+}
+
+.row-inner i {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 30px;
+    background-color: #ffd7d4;
+    border-radius: 50%;
+    color: #FF5145;
+}
+
+.row-inner p {
+    font-size: 18px;
+}
+
+.gallery {
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 20px;
+}
+
+
+.section-2 {
+    padding: 20px 40px !important;
+}
+
+.row-inner-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 260px;
+    width: 25%;
+    padding: 40px !important;
+    text-align: left;
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.row-inner-2 ul li a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+ul li i {
+    font-size: 18px;
+    color: #FF5145;
+    margin-right: 10px;
+}
+
+.row-inner p {
+    font-size: 18px;
+}

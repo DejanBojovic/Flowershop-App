@@ -1,0 +1,81 @@
+.container {
+    height: 90vh;
+}
+
+.product-edit-header {
+    background-color: #ffd7d4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    text-align: center;
+    padding: 30px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    padding: 20px 40px;
+    border-radius: 15px;
+    background-color: #ffd7d4;
+    border: 1px solid #FF5145;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border: 1px solid #FF5145 !important;
+}
+
+select {
+    border: 1px solid #FF5145 !important;
+}
+
+input,
+textarea {
+    border: 1px solid #FF5145;
+    border-radius: 5px;
+    outline: none !important;
+}
+  
+/* Track */
+textarea::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 15px;
+}
+  
+/* Handle */
+textarea::-webkit-scrollbar-thumb {
+    background: #FF5145;
+    border-radius: 15px;
+} */
+
+.form i {
+    color: #FF5145;
+    font-size: 22px;
+}
+
+.form label p {
+    font-weight: 600;
+    color: #FF5145;
+}
+
+.form input {
+    padding: 5px 5px 5px 10px;
+}
+
+.form button {
+    padding: 5px 8px;
+    border: 1px solid #FF5145 !important;
+    border-radius: 5px;
+    color: #FF5145 !important;
+    background-color: transparent !important;
+}
+
+.form button:hover {
+    color: #fff !important;
+    background-color: #FF5145 !important;
+}

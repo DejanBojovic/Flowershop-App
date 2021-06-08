@@ -1,0 +1,49 @@
+form {
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #ffd7d4;
+}
+
+form i {
+    color: #FF5145;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+form div {
+    text-align: center;
+    width: 100%;
+}
+
+form div input {
+    margin-bottom: 5px;
+}
+
+form button {
+    background-color: #FF5145 !important;
+    border: 1px solid #FF5145 !important;
+    margin: 0;
+}
+
+form button:hover {
+    background-color: #fff !important;
+}
+
+form a {
+    color: #FF5145 !important;
+    text-decoration: none !important;
+    position: relative;
+    right: -60px;
+    bottom: -30px;
+}
+
+.c-login {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,52 @@
+header {
+    background-color: #FF5145;
+}
+
+footer {
+    background-color: #ffd7d4 !important;
+    color: #000 !important;
+}
+
+button {
+    color: #fff !important;
+}
+
+button {
+    border: 1px solid #fff !important;
+    transition: .3s;
+    margin-left: 5px;
+}
+
+button:first-child {
+    margin-left: 0 !important;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #FF5145 !important;
+}
+
+.to-top {
+    width: 100%;
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.to-top a {
+    color: #FF5145;
+    font-size: 40px !important;
+}
+
+header i {
+    color: #fff !important;
+}
+
+.mobile-menu:hover .mobile-menu-icon {
+    color: #FF5145 !important;
+}
+
+.logout-form {
+    display: inline-block !important;
+    margin: 0 !important;
+}

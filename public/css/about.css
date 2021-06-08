@@ -1,0 +1,27 @@
+.header-about {
+    background-color: #ffd7d4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.header-about h1 {  
+    color: #000 !important;
+}
+
+.opis {
+    width: 100%;
+    padding: 40px 120px;
+}
+
+.prvi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.hr-about {
+    padding: 40px 0;
+    width: 80%;
+}

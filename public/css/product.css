@@ -1,0 +1,60 @@
+.header-product {
+    background-color: #ffd7d4;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    text-align: center;
+    padding: 30px 0;
+
+    position: relative;
+}
+
+.header-product a {
+    color: #FF5145 !important;
+    font-size: 25px !important;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+
+.product-btn {
+    background-color: transparent !important;
+    border: 1px solid #FF5145 !important;
+    color: #FF5145 !important;
+}
+
+.product-btn:hover {
+    background-color: #FF5145 !important;
+    color: #fff !important;
+}
+
+.card-related {
+    border: 5px solid #f8fafc;
+}
+
+.comment-icon {
+    padding-top: 3px;
+    font-size: 16px;
+    color: #FF5145;
+}
+
+.textarea:focus {
+    border-color: #FF5145 !important;
+}
+
+.likes {
+    margin-bottom: 0 !important;
+    font-size: 20px;
+    color: #FF5145;
+}
+
+.likes button {
+    background-color: transparent !important;
+    border: none !important;
+    color: #FF5145;
+    font-size: 22px;
+}
+
+.likes:hover {
+    cursor: pointer;
+}
