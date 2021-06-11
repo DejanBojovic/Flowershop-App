@@ -7,3 +7,7 @@ submitBtn.addEventListener('click', (e) => {
         e.preventDefault()
     }
 })
+
+document.querySelector('.cancel-button').addEventListener('click', () => {
+    text.value = ''
+})
